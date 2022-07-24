@@ -103,10 +103,7 @@ h1{
     font-style: italic;
 }
 .social-media{
-    display: flex;
     width: 25px;
-    padding: 5px;
-    float: left;
     padding: 5px;
 }
 
