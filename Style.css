@@ -21,7 +21,7 @@ h1{
     width: 900px;
 }
 #menu{
-    background-color: rgb(176, 143, 213);
+    background-color: #002fa7;
     text-align: center;
     display: block;
     width: auto;
@@ -48,7 +48,7 @@ h1{
     clear: both;
 }
 #menu-2{
-    background-color: rgb(176, 143, 213);
+    background-color: #002fa7;
     margin-top: 10px;
     width: auto;
     height: 250px;
@@ -56,7 +56,7 @@ h1{
 }
 
 #menu-3{
-    background-color: rgb(176, 143, 213);
+    background-color: #002fa7;
     margin-top: 30px;
     width: auto;
     height: 250px;
@@ -98,7 +98,7 @@ h1{
 }
 
 .cardlink:hover{
-    background-color: blueviolet;
+    background-color: royalblue;
     color: white;
     font-style: italic;
 }
@@ -108,7 +108,7 @@ h1{
 }
 
 .social-media:hover{
-    background-color: blueviolet;
+    background-color: royalblue;
 }
 
 /* Extra small devices (phones, 600px and down) */
