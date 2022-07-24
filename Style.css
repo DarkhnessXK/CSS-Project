@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-h1{
+
+h1 {
     padding: 28px;
     color: white;
 }
-.title-top5{
+
+.title-top5 {
     display: flex;
     padding: 12px;
     justify-content: center;
@@ -14,40 +16,59 @@ h1{
     font-size: 20px;
 
 }
-#menu1{
-    margin-left: auto; 
-    margin-right: auto; 
+
+#home {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    align-content: right;
+}
+
+#home:hover {
+    background-color: black;
+}
+
+#menu1 {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
     width: 900px;
 }
-#menu{
+
+#menu {
     background-color: #002fa7;
     text-align: center;
     display: block;
     width: auto;
-    height: 100px;
+    height: 110px;
 }
-#des{
+
+#des {
     background-color: #f3f3f3;
     width: auto;
 }
-#profile{
+
+#profile {
     clear: both;
     float: right;
     border-radius: 60px;
 }
-#title-menu{
+
+#title-menu {
     text-align: center;
     padding: 20px;
-    width: 450px;  
+    width: 450px;
     height: 260px;
 }
-#title-me{
+
+#title-me {
     display: inline;
     font-size: 35px;
     clear: both;
 }
-#menu-2{
+
+#menu-2 {
     background-color: #002fa7;
     margin-top: 10px;
     width: auto;
@@ -55,28 +76,30 @@ h1{
     padding: 20px;
 }
 
-#menu-3{
+#menu-3 {
     background-color: #002fa7;
     margin-top: 30px;
     width: auto;
     height: 250px;
     padding: 20px;
 }
-#nav-2{
+
+#nav-2 {
     display: flex;
     justify-content: center;
-    margin-left: auto; 
-    margin-right: auto; 
+    margin-left: auto;
+    margin-right: auto;
     width: 1000px;
 }
-#footer{
+
+#footer {
     display: flex;
-    margin-left: auto; 
-    margin-right: auto; 
+    margin-left: 20px;
     margin-top: 10px;
     width: 1000px;
 }
-.card{
+
+.card {
     background-color: white;
     color: black;
     margin: 10px;
@@ -87,7 +110,7 @@ h1{
 
 }
 
-.cardlink{
+.cardlink {
     background-color: white;
     color: black;
     margin: 10px;
@@ -97,26 +120,28 @@ h1{
     box-shadow: 10px 10px grey;
 }
 
-.cardlink:hover{
+.cardlink:hover {
     background-color: royalblue;
     color: white;
     font-style: italic;
 }
-.social-media{
+
+.social-media {
     width: 25px;
     padding: 5px;
 }
 
-.social-media:hover{
+.social-media:hover {
     background-color: royalblue;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    #menu-2{
+    #menu-2 {
         height: auto;
     }
-    #nav-2{
+
+    #nav-2 {
         flex-direction: column;
         width: 240px;
     }
