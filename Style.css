@@ -3,160 +3,185 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    padding: 28px;
+#title {
+    background-color: #F8AA44;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+}
+
+#giovanni {
+    padding: 5px;
     color: white;
 }
 
-.title-top5 {
-    display: flex;
-    padding: 12px;
-    justify-content: center;
-    color: white;
-    font-size: 20px;
-
+#menu1 {
+    margin-top: 10px;
 }
 
 #home {
     text-decoration: none;
     color: white;
-    padding: 5px;
-    display: inline-block;
-    align-content: right;
 }
 
 #home:hover {
-    background-color: black;
+    background-color: rgb(43, 40, 40);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
 }
 
-#menu1 {
+#home:active {
+    background-color: rgb(62, 148, 74);
+    font-style: italic;
+}
+
+#menu2 {
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-    width: 900px;
-}
-
-#menu {
-    background-color: #002fa7;
-    text-align: center;
-    display: block;
-    width: auto;
-    height: 110px;
-}
-
-#des {
-    background-color: #f3f3f3;
-    width: auto;
-}
-
-#profile {
-    clear: both;
-    float: right;
-    border-radius: 60px;
+    width: 1000px;
 }
 
 #title-menu {
     text-align: center;
-    padding: 20px;
-    width: 450px;
-    height: 260px;
+    padding: 40px;
 }
 
-#title-me {
-    display: inline;
-    font-size: 35px;
-    clear: both;
+#title-eu {
+    font-size: 30px;
 }
 
-#menu-2 {
-    background-color: #002fa7;
+#profile {
+    border-radius: 40px;
+}
+
+.menu3 {
+    background-color: #F8AA44;
     margin-top: 10px;
+    text-align: center;
     width: auto;
-    height: 250px;
-    padding: 20px;
+    height: 200px;
 }
 
-#menu-3 {
-    background-color: #002fa7;
-    margin-top: 30px;
-    width: auto;
-    height: 250px;
-    padding: 20px;
+.jogos {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
 }
 
-#nav-2 {
+.top-jogos {
     display: flex;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1000px;
 }
 
-#footer {
-    display: flex;
-    margin-left: 20px;
-    margin-top: 10px;
-    width: 1000px;
-}
-
-.card {
+.link-jogos {
     background-color: white;
     color: black;
     margin: 10px;
-    padding: 77px;
-    border-radius: 10px;
-    text-decoration: none;
-    box-shadow: 10px 10px grey;
-
-}
-
-.cardlink {
-    background-color: white;
-    color: black;
-    margin: 10px;
-    padding: 77px;
+    padding: 50px;
     border-radius: 10px;
     text-decoration: none;
     box-shadow: 10px 10px grey;
 }
 
-.cardlink:hover {
-    background-color: royalblue;
+.link-jogos:hover {
+    background-color: rgb(38, 38, 236);
     color: white;
     font-style: italic;
 }
 
-.social-media {
+#footer {
+    margin-left: 10px;
+}
+
+.rede-social {
+    margin-top: 5px;
     width: 25px;
-    padding: 5px;
+    padding: 4px;
 }
 
-.social-media:hover {
-    background-color: royalblue;
+
+.rede-social:hover {
+    background-color: #F8AA44;
+    border-radius: 15px;
 }
 
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    #menu-2 {
+    #menu2 {
+        flex-direction: column;
+        width: 500px;
+    }
+
+    #menu1 {
+        margin-top: 10px;
+    }
+
+    #profile {
+        width: 300px;
+        border-radius: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .top-jogos {
+        flex-direction: column;
+    }
+
+    .menu3 {
         height: auto;
     }
+}
 
-    #nav-2 {
+@media only screen and (max-width: 768px) {
+    #menu2 {
         flex-direction: column;
-        width: 240px;
+        width: 500px;
+    }
+
+    #menu1 {
+        margin-top: 10px;
+    }
+
+    #profile {
+        width: 300px;
+        border-radius: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .top-jogos {
+        flex-wrap: wrap;
+    }
+
+    .menu3 {
+        height: auto;
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) 
-@media only screen and (min-width: 600px) {...}
+@media only screen and (max-width: 992px) {
+    #menu2 {
+        flex-direction: column;
+        width: 500px;
+    }
 
-Medium devices (landscape tablets, 768px and up) 
-@media only screen and (min-width: 768px) {...}
+    #menu1 {
+        margin-top: 10px;
+    }
 
-Large devices (laptops/desktops, 992px and up) 
-@media only screen and (min-width: 992px) {...}
+    #profile {
+        width: 300px;
+        border-radius: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-Extra large devices (large laptops and desktops, 1200px and up) 
-@media only screen and (min-width: 1200px) {...}
+    .top-jogos {
+        flex-wrap: wrap;
+    }
 
-*/
+    .menu3 {
+        height: auto;
+    }
+}
